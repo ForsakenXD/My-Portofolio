@@ -1,0 +1,735 @@
+html, body { height: 100%; }
+
+
+.bg-img{
+    /* The image used */
+     background:
+    linear-gradient(
+
+      /* rgba(30,240,244,0.6),
+      rgba(30,240,244,0.6) */
+      rgb(0, 175, 219,0.3),
+      rgb(0, 175, 219,0.4),
+      rgb(0, 175, 219,0.5)
+
+      ),
+    url("images/code.jpg");
+
+
+    /* background-image: url("mountains.jpg"); */
+
+
+
+  /* Center and scale the image nicely */
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+
+
+  /* Needed to position the navbar */
+
+  image-rendering: auto;
+
+
+  border-bottom: black 3px solid;
+  height:360px;
+
+}
+.backendimg-2{
+  min-height: 100%;
+  height:auto;
+}
+
+.gitskills{
+  padding-top: 15px;
+}
+
+.badge1{
+  padding-top:20px;
+  font-size: 1.3vw;
+}
+.main-h1,.main-p{
+  font-size:0;
+}
+
+
+li{
+  list-style: none;
+}
+.skill-board{
+  background-color: lightgrey;
+  margin:0 auto;
+  width:70%;
+  height:700px;
+
+
+}
+
+.skill-board-row-1{
+  border-right:2px black solid;
+  background-color: rgb(16,229,232);
+  color:white;
+  width:50%;
+}
+
+.skill-board-row-2{
+  width:50%;
+  background-color: rgb(39,58,73);
+}
+
+
+.skill-board-row-2 {
+  color:white;
+}
+
+
+.hdr_txt{
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  font-size: 100%;
+  color:white;
+}
+
+
+
+
+.transf{
+
+
+
+
+	position: relative;
+  -webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+
+#skills{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 2.6595744680851063vw;
+  margin-top:60px;
+  font-weight: 700;
+  letter-spacing: 2px;
+
+
+}
+
+
+.brder{
+  border-top: black 2px solid;
+
+
+}
+
+
+.test-class:before{
+  background-color: black !important;
+}
+
+.transf:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.transf:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.transf:hover{
+  color:white;
+  text-decoration: none;
+}
+
+
+.skill-board h1{
+  font-size: 2.5vw;
+  margin-bottom: 20px;
+
+}
+
+
+
+.skill-board-row-2 h1{
+  color:rgb(16,229,232);
+}
+.backendimg-2{
+
+}
+
+.backendimg-3{
+
+}
+
+.img-3{
+  height:350px;
+  width:100%;
+  margin-top: 150px;
+  background-color: lightgrey;
+  background:
+ linear-gradient(
+
+   /* rgba(30,240,244,0.6),
+   rgba(30,240,244,0.6) */
+   rgb(0, 70, 124,0.7),
+   rgb(0, 70, 124,0.7)
+
+
+   ),
+   url("images/code3.jpg");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+  -webkit-box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.75);
+  min-height:600px;
+
+
+
+}
+/* ADDING THE SPIN ANIMATION ON THE ICONS */
+.spin{
+  transition: all .5s;
+}
+
+.spin:hover{
+  transform: scale(1.2) rotate(360deg);
+}
+
+
+.spin2{
+  transition:all .2s;
+}
+
+.spin2:hover{
+  transform: scale(1.5) ;
+}
+
+.icon{
+  width:30px;
+  height:30px;
+}
+/* ADDING THE SPIN ANIMATION ON THE ICONS */
+
+
+/* CAROUSEL VIDEO  */
+.mycarousel{
+
+  width:60%;
+
+
+
+}
+
+.carousel{
+
+}
+.tempvid{
+
+
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+
+ object-fit: cover;
+ height:100%;
+  width:100%;
+
+
+
+
+}
+
+.tempvid,.carousel,.mycarousel{
+  height:629px;
+
+}
+
+
+#bigcont{
+  /* background-color: lightgrey; */
+  /* -webkit-box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.75); */
+
+  width:75%;
+  height:800px;
+  padding-bottom: 12px;
+  margin:0 auto;
+}
+
+
+
+
+/* CAROUSEL VIDEO  END*/
+
+
+/*skill-set && gear-gif centralization  */
+.ces{
+}
+
+.ces2{
+  width:40px;
+  height:40px;
+}
+/* skill-set && gear-gif centralization  END*/
+
+/*carousel description box  */
+.carousel-description{
+  width:40%;
+  height:80%;
+  background-color:rgb(39,58,73);
+  /* -webkit-box-shadow: 0px 0px 20px -2px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 0px 20px -2px rgba(255,255,255,1);
+  box-shadow: 0px 0px 20px -2px rgba(255,255,255,1); */
+
+
+}
+
+
+
+
+.h1-description{
+  font-size:3vw;
+  font-family: 'Nunito Sans', sans-serif;
+  color:rgb(16,229,232);
+  font-weight: 700;
+  padding-top: 10px;
+
+
+}
+
+.p-description{
+  font-size:1.2vw;
+  font-family: 'Nunito Sans', sans-serif;
+  color:white;
+  padding:10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+}
+
+/*carousel description box  END*/
+
+/* PROJECTS BOTTOM PART(TECH-USED) */
+#projects_bottom{
+  width:100%;
+  padding-bottom: 70px;
+}
+
+
+.techused{
+
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2.7em;
+    color:black;
+    font-weight: 800;
+    letter-spacing: 1px;
+
+
+}
+
+.gittech{
+  padding:5px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 0.85vw;
+  background-color: black;
+  font-weight: 700;
+  max-width:90%;
+
+}
+
+.techused2 ul{
+  padding-left: 0px;
+}
+
+
+/*ICONS FADE IN  */
+.elementToFadeInAndOut {
+    -webkit-animation: fadeinout 2s linear forwards;
+    animation: fadeinout 2s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+
+.icons2{
+  width:60px;
+  height:60px;
+}
+
+/*ICONS FADE IN  */
+/* ASDASD */
+
+
+.text-fade{
+  font-size:1.2vw;
+}
+
+/* TRYING TO FIX MY SHIT LAYOUT AT CAROUSEL */
+
+.carousel-description{
+  width:40%;
+}
+
+/* TRYING TO FIX MY SHIT LAYOUT AT CAROUSEL */
+
+
+
+.skillset-shadow{
+  width:100%;
+    background: #fafafa;
+      border-bottom: #dddddd solid 1px;
+      -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+    padding-top:3em;
+    padding-bottom: 3em;
+
+
+}
+
+.skillset-light{
+  width:100%;
+
+
+      -webkit-box-shadow: inset 0px 30px 30px -30px rgba(0, 0, 0, 0.05);
+      -moz-box-shadow: inset 0px 30px 30px -30px rgba(0, 0, 0, 0.05);
+      box-shadow: inset 0px 30px 30px -30px rgba(0, 0, 0, 0.05);
+      border-bottom: #dddddd solid 1px;
+    padding:3em;
+}
+
+/*ABOUT ME */
+.about-h1{
+  font-size:2.5vw;
+  text-align: center;
+  color:white;
+  font-weight: 600;
+  letter-spacing: 2px;
+
+}
+#about p {
+  font-size: 1.1702127659574468vw;
+
+  font-weight: 600;
+  line-height: 1.4em;
+  text-align: center;
+  color:white;
+}
+
+/* FOOTER */
+
+.footer-container{
+  background-color: grey;
+  height:500px;
+}
+
+
+
+footer{
+  margin-top:100px;
+
+}
+
+/* FOOOTER */
+
+
+
+@media (min-width: 991.98px){
+    .bg-img
+    {
+      min-height:700px;
+
+    }
+    .main-h1
+    {
+      /* font-size: 80px; */
+      font-size:4em;
+      text-align: center;
+      color:white;
+      font-style: bold;
+    }
+    .main-p{
+      /* font-size:25px; */
+      font-size:2em;
+
+      text-align:center;
+      color:white;
+    }
+
+    .intro{
+      font-size: 0;
+    }
+
+    .header-text{
+      position:relative;
+      top:60px;
+      left:10px;
+    }
+
+    #play_button {
+
+        transition: .5s ease;
+        display: block;
+        width: 20%;
+        border: none;
+        padding: 14px 28px;
+        font-size: 100%;
+        cursor: pointer;
+        text-align: center;
+        margin:0 auto;
+        font-size: 20px;
+        position:relative;
+        top:100px;
+
+      }
+          /* .mt-5{
+            margin-top:0rem!important;
+          } */
+
+
+    .skill-board{
+      height:700px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+/*  TABLETTTTTTTTTTTTTT */
+  @media all and (max-width: 1254px) {
+    .skill-board h1{
+       font-size:35px;
+    }
+    .hdr_txt{
+      font-size:25px;
+    }
+    .icon{
+      width:30px;
+      length:30px;
+    }
+
+    .text-fade{
+      font-size:40px;
+    }
+    /* TA */
+    #bigcont{
+      width:100%
+    }
+
+    .h1-description{
+      font-size:50px;
+    }
+
+    .p-description{
+      font-size:20px;
+    }
+
+    .techused{
+      font-size:15px;
+    }
+
+    .gittech{
+      font-size:20px;
+    }
+
+   }
+  @media all and (max-width: 991px) {
+    #play_button{
+
+      text-align: center;
+      margin:0 ;
+      width:60%;
+      color:black;
+  }
+
+
+ }
+
+
+  @media all and (max-width: 800px) {
+      .skill-board h1{
+        /* font-size:20px; */
+      }
+
+      .skill-board{
+        height:800px;
+      }
+
+  }
+  @media all and (max-width: 575px) {
+      /* .skill-board h1{
+         font-size:10px;
+      } */
+
+      .navbar-fixed-top { position: absolute!important; }
+      /* MAKES THE SKILL SET TEXT AND THE GEAR GIF A BIT SMALLER AND REMOVES THE MARGIN-LEFT APPLIED TO THEM TO MAKE THEM MORE CENTERED SO THAT THE DISPLAY DOESNT BREAK AND BOTH ITEMS STAY INLINE */
+      .ces2{
+        width:20%;
+      }
+      .ces{
+        margin-left: 0;
+      }
+
+      #skills{
+        font-size:30px;
+      }
+
+
+   }
+
+
+   @media all and (max-width: 770px ),( width:768px) {
+        .skill-board-row-1{
+          width:100%;
+          height:70%;
+
+       }
+
+       .skill-board-row-2{
+         height:30%;
+         width:100%;
+       }
+
+
+        .backendimg-2,.backendimg-3{
+         display:none;
+       }
+       /* DISABLES CAROUSEL CAUSE PX SIZE TOO SMALL*/
+       #bigcont{
+         display: flex!important;
+         flex-direction: column!important;
+         width:100%;
+         min-height:2100px;
+       }
+
+       .row{
+         flex-wrap:nowrap;
+       }
+
+       #projects_bottom{
+         display:flex!important;
+         flex-direction: column!important;
+       }
+
+       .carousel-description{
+         width:100%;
+         height:20%!important;
+       }
+       .mycarousel{
+         width:100%;
+         height:30%;
+       }
+
+
+
+
+       .icons2{
+         width:40px;
+         height:40px;
+       }
+       .h1-description{
+         font-size:12px;
+       }
+       .p-description{
+         font-size:8px;
+       }
+
+       .ces2{
+         display:none;
+       }
+
+
+
+       .text-fade{
+         font-size:15px;
+       }
+
+       .skill-board h1{
+         font-size:30px;
+       }
+       .gitskills{}
+
+        .about-h1{
+          font-size:30px;
+        }
+        #about p{
+          font-size:13px;
+        }
+    }
+
+    @media screen and (min-width: 2200px) {
+        .hdr_txt{
+          font-size:1.0624068157614484vw;
+        }
+        #play_button{
+          font-size: 1vw;
+        }
+
+        .skill-board{
+          min-height:1000px;
+        }
+
+        .list{
+          font-size:1.9vw;
+        }
+
+        .icon{
+          width:60px;
+          height:60px;
+          margin-left: 10px;
+        }
+
+        .bg-img{
+          min-height:1150px;
+        }
+
+        .main-h1{
+          font-size:3.5vw;
+        }
+        .main-p{
+          font-size:1.8vw;
+        }
+        #bigcont{
+
+        }
+        .gittech{
+          font-size:1.1vw;
+        }
+
+        .icons2{
+          width:80px;
+          height:80px;
+        }
+        #main-navbar{
+          min-height:100px;
+        }
+
+
+}
+
+ul{
+  height:100%;
+}
