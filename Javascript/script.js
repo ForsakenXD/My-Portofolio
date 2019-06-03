@@ -1,5 +1,7 @@
 
 
+
+
 function navbarvol2(flag){
   let $nav_background = $('#main-navbar');                    //FOR THE NAV BACKGROUND COLOR
   let $text = $('.hdr_txt');                                   // FOR THE NAV TEXT
@@ -73,6 +75,8 @@ $.getJSON("json/project-description.json",function(data){
     description_appear(data,$counter);
     icons_appear(lang,$counter);
     //IF NEXT ARROW IS PRESSED
+    console.log($counter)
+    $('#project-git').click(() => {window.open(data[$counter][2])})
     $('.carousel-control-next').on('click',function(){
         $('.techused2 ul').empty();
         $('.carousel-description').empty();
@@ -81,6 +85,7 @@ $.getJSON("json/project-description.json",function(data){
           $counter = 1;
         description_appear(data,$counter);
         icons_appear(lang,$counter);
+
     });
     // IF PREV ARROW IS PRESSED //
     $('.carousel-control-prev').on('click',function(){
@@ -93,5 +98,6 @@ $.getJSON("json/project-description.json",function(data){
           description_appear(data,$counter);
           icons_appear(lang,$counter);
       });
+
     });
     //END PROJECTS BOX FUNCTIONALITY END//
