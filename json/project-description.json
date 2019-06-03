@@ -1,5 +1,17 @@
 {
-"1":["Filmchat","The Ultimate tool for film-fans,A website where you can have a personal list with your favourite movies and talk with other film-fans","https://github.com/ForsakenXD/Film-Chat"],
-"2":["AI Chess","A chess that can be played with 2 players or player vs computer with a broad variety of Difficulties"],
-"3":["Rectangle Intersection tester","A Basic Web app that visually represents wheter two rectangles(of your choice)intersect or not"]
+"1":{
+      "title":"Filmchat",
+      "description":"The Ultimate tool for film-fans,A website where you can have a personal list with your favourite movies and talk with other film-fans",
+      "gitlink":"https://github.com/ForsakenXD/Film-Chat"
+    },
+"2":{
+     "title":"AI Chess",
+     "description":"A chess that can be played with 2 players or player vs computer with a broad variety of Difficulties",
+     "gitlink":"https://github.com/ForsakenXD"
+   },
+"3":{
+      "title":"Rectangle Intersection tester",
+      "description":"A Basic Web app that visually represents wheter two rectangles(of your choice)intersect or not",
+      "gitlink":"https://github.com/ForsakenXD"
+    }
 }

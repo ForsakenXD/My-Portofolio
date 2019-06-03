@@ -35,8 +35,8 @@ function description_appear(data,counter){
   $.each(data,function(index,item){
     if(parseInt(index) === counter)
       {
-      $(".carousel-description").html("<h1 class = ' h1-description align-middle '>" + item[0] + "</h1>");
-      $(".carousel-description").append("<p class = 'p-description'>" + item[1] + "</p>");
+      $(".carousel-description").html("<h1 class = ' h1-description align-middle '>" + item.title + "</h1>");
+      $(".carousel-description").append("<p class = 'p-description'>" + item.description + "</p>");
       $(".carousel-description").append('<button type="button" class="btn btn-light  " style = "margin:0 auto; width:50%">WEBSITE LINK</button>');
       }
   });
@@ -70,13 +70,15 @@ $(document).on('scroll', function() {
 // PROJECTS BOX FUNCTIONALITY //
 
 $.getJSON("json/project-description.json",function(data){
+    console.log(data)
     const lang = ['HTML5','CSS','JS','JQUERY','AJAX','BOOTSTRAP'];
     let $counter = 1;
     description_appear(data,$counter);
     icons_appear(lang,$counter);
     //IF NEXT ARROW IS PRESSED
     console.log($counter)
-    $('#project-git').click(() => {window.open(data[$counter][2])})
+    console.log(data[$counter]['title'])
+    $('#project-git').click(() => {window.open(data[$counter]['gitlink'])})
     $('.carousel-control-next').on('click',function(){
         $('.techused2 ul').empty();
         $('.carousel-description').empty();
